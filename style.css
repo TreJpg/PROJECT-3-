@@ -135,6 +135,103 @@ font-family: "Staatliches", sans-serif;
   font-style: normal;
 }
 
+/* About page styles */
+.bow.accents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bow.accents img {
+  max-width: 200px;
+  height: auto;
+}
+
+.about-olivia {
+  max-width: 900px;
+  margin: -1rem auto 0;
+  padding: 1rem 2rem 3rem;
+  color: white;
+}
+
+.about-title {
+  font-family: 'Barrio', system-ui;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  border-bottom: #ddd 2px solid;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.olivia-photo {
+  flex: 0 0 auto;
+}
+
+.olivia-photo img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.olivia-bio {
+  max-width: 1000px;
+  text-align: center;
+}
+
+
+.olivia-bio p {
+  font-family: "Staatliches", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -149,4 +246,20 @@ font-family: "Staatliches", sans-serif;
   75% {
     transform: rotate(-1.5deg);
   }
+}
+
+/* Footer */
+footer {
+  background-color: #1A1A1A;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-top: 2px solid white;
+}
+
+footer p {
+  color: white;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 1rem;
+  margin: 0;
 }
