@@ -4,9 +4,143 @@
 }
 
 html {
-  color: #222;
+  color: #1A1A1A;
   line-height: 1.4;
   font-size: 16pt;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #1A1A1A;
+}
+
+main{
+  background-color:#1A1A1A;
+  margin-top: -5px;
+  min-height: 100vh;
+}
+
+
+nav {
+  background-color:#1A1A1A;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  font-family: "Staatliches", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2%;
+}
+
+.nav-logo {
+  width: 97px;
+  height: auto;
+  margin-left: 8%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding-left: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  margin-top: -10rem;
+}
+
+.hero-text {
+  position: absolute;
+  left: 8%;
+  top: 25%;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  line-height: 0.9;
+  font-family: 'Barrio', cursive;
+  margin-bottom: 0;
+}
+
+.hero-text .name,
+.hero-text h2.name {
+  font-size: 6.5rem;
+  font-family: "Beth Ellen", cursive;
+  line-height: 1;
+  color: white;
+  letter-spacing: 0px;
+  font-style: italic;
+  animation: slowRotate 10s ease-in-out infinite;
+}
+
+@keyframes slowRotate {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1.5deg);
+  }
+  75% {
+    transform: rotate(-1.5deg);
+  }
+}
+
+.hero-text p {
+  font-size: 140%;
+  margin: 2rem 0 0 0;
+  padding-bottom: 0.7rem;
+  color: #ddd;
+  border-bottom: 2px solid white;
+font-family: "Staatliches", sans-serif;
+}
+
+.event-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  margin-left: 11rem;
+  font-size: 1.8rem;
+  color: white;
+  font-family: 'Barrio', system-ui;
+}
+
+.hero-image {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  margin-top: -140px;
+}
+
+.hero-image img {
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+
+}
+
+
+.barrio-regular {
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
