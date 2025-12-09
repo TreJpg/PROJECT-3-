@@ -19,19 +19,18 @@ body {
 main{
   background-color:#1A1A1A;
   margin-top: -5px;
-  min-height: 100vh;
 }
 
 
 nav {
   background-color:#1A1A1A;
   padding: 1rem 0;
-  margin-top: 1rem;
+  margin-top: 0;
   font-family: "Staatliches", sans-serif;
   display: flex;
   align-items: center;
   gap: 3rem;
-  margin-bottom: 2%;
+  margin-bottom: 0;
 }
 
 .nav-logo {
@@ -61,13 +60,17 @@ nav a:hover {
 .hero-container {
   position: relative;
   width: 100%;
-  margin-top: -10rem;
+  min-height: 100vh;
+  margin-top: -2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-text {
   position: absolute;
   left: 8%;
-  top: 25%;
+  top: 15%;
   color: white;
 }
 
@@ -89,17 +92,6 @@ nav a:hover {
   animation: slowRotate 10s ease-in-out infinite;
 }
 
-@keyframes slowRotate {
-  0%, 100% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(1.5deg);
-  }
-  75% {
-    transform: rotate(-1.5deg);
-  }
-}
 
 .hero-text p {
   font-size: 140%;
@@ -122,11 +114,11 @@ font-family: "Staatliches", sans-serif;
 }
 
 .hero-image {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: flex-end;
   align-items: right;
-  margin-top: -140px;
+  margin-top: -160px;
 }
 
 .hero-image img {
@@ -147,3 +139,14 @@ font-family: "Staatliches", sans-serif;
 
 
 
+@keyframes slowRotate {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1.5deg);
+  }
+  75% {
+    transform: rotate(-1.5deg);
+  }
+}
