@@ -23,7 +23,7 @@ main{
 
 
 nav {
-  background-color:#1A1A1A;
+  
   padding: 1rem 0;
   margin-top: 0;
   font-family: "Staatliches", sans-serif;
@@ -145,7 +145,7 @@ font-family: "Staatliches", sans-serif;
   color: white;
 }
 
-/* About page styles */
+/* about page styles */
 
 .about-olivia {
   max-width: 1400px;
@@ -217,7 +217,7 @@ font-family: "Staatliches", sans-serif;
   color: #ddd;
 }
 
-/* Schedule page styles */
+/* schedule page styles */
 
 .schedule-section .bow.accents {
   display: flex;
@@ -229,7 +229,6 @@ font-family: "Staatliches", sans-serif;
 .schedule-section .bow.accents img {
   max-width: 100px;
   height: auto;
-  opacity: 0.9;
 }
 
 .schedule-section {
@@ -326,6 +325,7 @@ footer {
   border-top: 2px solid white;
   color: white;
   font-family: 'Staatliches', sans-serif;
+ 
 }
 
 
@@ -349,16 +349,27 @@ footer {
   font-weight: 400;
   font-style: normal;
 }
+.beth-ellen-regular {
+  font-family: "Beth Ellen", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.staatliches-regular {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-/* Mobile Responsive Design */
+
+/* mobile designs */
 @media (max-width: 480px) {
   html {
-    font-size: 14pt;
+    font-size: 10pt;
   }
   
   nav {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0  rem;
     padding: 1rem;
     align-items: center;
   }
@@ -369,26 +380,23 @@ footer {
   }
   
   nav ul {
-    gap: 1.5rem;
+    gap: 5rem;
     justify-content: center;
   }
   
   nav a {
-    font-size: rem;
+    font-size: 1rem;
   }
   
-  /* index page mobile */
   .hero-container {
     flex-direction: column;
     min-height: auto;
-    padding: 1rem;
-    margin-top: 0;
-  }
+}
   
   .hero-text {
     position: static;
     width: 100%;
-    padding: 1rem;
+    padding: 4rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -396,19 +404,19 @@ footer {
   }
   
   .hero-text h1 {
-    font-size: 2rem;
-    line-height: 1.1;
+    font-size: 4rem;
+    line-height: 1.0;
     text-align: center;
   }
   
   .hero-text h2.name {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
+    line-height: 1.0;
   }
   
   .hero-text p {
-    font-size: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
   }
   
@@ -426,7 +434,7 @@ footer {
   
   .hero-image {
     width: 100%;
-    margin-top: 1rem;
+    margin-top: -2%;
     justify-content: center;
   }
   
@@ -435,14 +443,14 @@ footer {
     max-width: 100%;
   }
   
-  /* About page mobile */
+  /* about page mobile */
   .about-olivia {
     padding: 1rem;
     margin-top: 0;
   }
   
   .about-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
   }
   
@@ -455,20 +463,20 @@ footer {
     flex: none;
     width: 100%;
     max-width: 100%;
-  .bio-container p {
-    font-size: 1rem;
-    line-height: 1.6;
-    text-align: center;
-  } width: 100%;
+  }
+  
+  .bio-container img {
+    width: 100%;
     height: auto;
   }
   
   .bio-container p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.6;
+    text-align: center;
   }
   
-  /* Schedule page mobile */
+  /* schedule page mobile */
   .schedule-section {
     padding: 1rem;
     margin-top: 0;
