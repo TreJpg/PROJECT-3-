@@ -23,7 +23,7 @@ main{
 
 
 nav {
-  
+  background-color: #1A1A1A;
   padding: 1rem 0;
   margin-top: 0;
   font-family: "Staatliches", sans-serif;
@@ -148,11 +148,10 @@ font-family: "Staatliches", sans-serif;
 /* about page styles */
 
 .about-olivia {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: -3rem auto 0;
   padding: 2rem;
   color: white;
-  position: relative;
 }
 
 .about-olivia .bow.accents {
@@ -165,14 +164,6 @@ font-family: "Staatliches", sans-serif;
 .about-olivia .bow.accents img {
   max-width: 100px;
   height: auto;
-}
-
-
-.about-olivia {
-  max-width: 1600px;
-  margin: -3rem auto 0;
-  padding: 2rem;
-  color: white;
 }
 
 .about-title {
@@ -369,7 +360,7 @@ footer {
   
   nav {
     flex-direction: column;
-    gap: 0  rem;
+    gap: 0.5rem;
     padding: 1rem;
     align-items: center;
   }
@@ -380,12 +371,12 @@ footer {
   }
   
   nav ul {
-    gap: 5rem;
+    gap: 1.5rem;
     justify-content: center;
   }
   
   nav a {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   
   .hero-container {
