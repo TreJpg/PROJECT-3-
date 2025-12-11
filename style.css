@@ -124,6 +124,26 @@ font-family: "Staatliches", sans-serif;
 
 }
 
+.rsvp-button {
+  display: block;
+  margin: 2rem auto 0 17rem;
+  padding: 0.8rem 2rem;
+  background-color: white;
+  color: #1A1A1A;
+  text-decoration: none;
+  font-family: 'Barrio', system-ui;
+  font-size: 1.2rem;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+  width: fit-content;
+  text-align: center;
+}
+
+.rsvp-button:hover {
+  background-color: transparent;
+  color: white;
+}
+
 /* About page styles */
 
 .about-olivia {
