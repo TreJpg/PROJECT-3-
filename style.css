@@ -350,3 +350,178 @@ footer {
   font-style: normal;
 }
 
+/* Mobile Responsive Design */
+@media (max-width: 480px) {
+  html {
+    font-size: 14pt;
+  }
+  
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    margin-left: 0;
+    width: 50px;
+  }
+  
+  nav ul {
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  nav a {
+    font-size: rem;
+  }
+  
+  /* index page mobile */
+  .hero-container {
+    flex-direction: column;
+    min-height: auto;
+    padding: 1rem;
+    margin-top: 0;
+  }
+  
+  .hero-text {
+    position: static;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+    text-align: center;
+  }
+  
+  .hero-text h2.name {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .event-info {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    align-items: center;
+  }
+  
+  .rsvp-button {
+    margin: 1.5rem 0;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+  
+  .hero-image {
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* About page mobile */
+  .about-olivia {
+    padding: 1rem;
+    margin-top: 0;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .bio-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .olivia-photo {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+  .bio-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+  } width: 100%;
+    height: auto;
+  }
+  
+  .bio-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Schedule page mobile */
+  .schedule-section {
+    padding: 1rem;
+    margin-top: 0;
+  }
+  
+  .schedule-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .schedule-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .timeline {
+    padding-left: 40px;
+  }
+  
+  .timeline::before {
+    left: 15px;
+  }
+  
+  .timeline-item::before {
+    left: -32px;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .timeline-time {
+    font-size: 1.3rem;
+  }
+  
+  .timeline-content h3 {
+    font-size: 1.4rem;
+  }
+  
+  .timeline-content p {
+    font-size: 1rem;
+  }
+  
+  .schedule-photo {
+    flex: none;
+    width: 100%;
+    height: 250px;
+  }
+  
+  .schedule-photo img {
+    object-fit: cover;
+  }
+  
+  footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+}
